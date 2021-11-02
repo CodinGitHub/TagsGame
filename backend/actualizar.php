@@ -1,8 +1,19 @@
   <?php 
+    $jsonID = 0;
     $question = $_POST["question"];
-    $answer = $_POST["answer"];
+    $rightAnswer = $_POST["rightAnswer"];
+    $wrongAnswer1 = $_POST["wrongAnswer1"];
+    $wrongAnswer2 = $_POST["wrongAnswer2"];
+    $wrongAnswer3 = $_POST["wrongAnswer3"];
     
-    $array = array("question" => $question, "answer" => $answer);
+    $array = array(
+      "id" => $jsonID,
+      "question" => $question, 
+      "rightAnswer" => $rightAnswer,
+      "wrongAnswer1" => $wrongAnswer1,
+      "wrongAnswer2" => $wrongAnswer2,
+      "wrongAnswer3" => $wrongAnswer3
+    );
 
     if(file_exists("data.json")){
       $contenido = file_get_contents("data.json");

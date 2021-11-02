@@ -1,10 +1,1 @@
-[
-  {
-    "question": "Para que funciona la etiqueta <a>",
-    "answer": "Para crear enlaces"
-  },
-  {
-    "question": "Con que etiqueta inserto una imagen",
-    "answer": "<img>"
-  }
-]
+[{"id":0,"question":"uu","rightAnswer":"uu","wrongAnswer1":"uu","wrongAnswer2":"uu","wrongAnswer3":"uu"},{"id":0,"question":"\u00bfCon cu\u00e1l etiqueta creas un enlace?","rightAnswer":"<a><\/a>","wrongAnswer1":"<enlace><\/enlace>","wrongAnswer2":"<en><\/en>","wrongAnswer3":"<ancla><\/ancla>"}]

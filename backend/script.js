@@ -22,8 +22,12 @@ const fetchData = async () => {
 
 const pintarCards = data => {
   data.forEach(element => {
-    templateCard.querySelector('h5').textContent = element.question;
-    templateCard.querySelector('p').textContent = element.answer;
+    
+    templateCard.getElementById('question').textContent = element.question;
+    templateCard.getElementById('rightAnswer').textContent = element.rightAnswer;
+    templateCard.getElementById('wrongAnswer1').textContent = element.wrongAnswer1;
+    templateCard.getElementById('wrongAnswer2').textContent = element.wrongAnswer2;
+    templateCard.getElementById('wrongAnswer3').textContent = element.wrongAnswer3;
 
     const clone = templateCard.cloneNode(true);
     fragment.appendChild(clone);
