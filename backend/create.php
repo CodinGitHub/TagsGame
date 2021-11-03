@@ -1,11 +1,16 @@
   <?php 
+    //GET. Información se envía de forma visible
+    //POST. Información se envía de forma no visible
+
     $jsonID = 0;
-    $question = $_POST["question"];
-    $rightAnswer = $_POST["rightAnswer"];
-    $wrongAnswer1 = $_POST["wrongAnswer1"];
-    $wrongAnswer2 = $_POST["wrongAnswer2"];
-    $wrongAnswer3 = $_POST["wrongAnswer3"];
+    $question = $_GET["question"];
+    $rightAnswer = $_GET["rightAnswer"];
+    $wrongAnswer1 = $_GET["wrongAnswer1"];
+    $wrongAnswer2 = $_GET["wrongAnswer2"];
+    $wrongAnswer3 = $_GET["wrongAnswer3"];
     
+
+
     $array = array(
       "id" => $jsonID,
       "question" => $question, 
