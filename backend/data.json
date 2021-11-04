@@ -9,18 +9,18 @@
   },
   {
     "id": 0,
-    "question": "AA",
-    "rightAnswer": "AA",
-    "wrongAnswer1": "AA",
-    "wrongAnswer2": "AA",
-    "wrongAnswer3": "AA"
+    "question": "ddd",
+    "rightAnswer": "ddd",
+    "wrongAnswer1": "dd",
+    "wrongAnswer2": "dd",
+    "wrongAnswer3": "ddd"
   },
   {
     "id": 0,
-    "question": null,
-    "rightAnswer": null,
-    "wrongAnswer1": null,
-    "wrongAnswer2": null,
-    "wrongAnswer3": null
+    "question": "33",
+    "rightAnswer": "33",
+    "wrongAnswer1": "33",
+    "wrongAnswer2": "33",
+    "wrongAnswer3": "33"
   }
 ]

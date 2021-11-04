@@ -25,7 +25,7 @@
       <h1 class="text-end">&lt;TagsGame&gt;</h1>
     </header>
     <hr>
-    <form  action="backend/create.php" method="GET">
+    <form  action="backend/create.php" method="POST">
 
       <fieldset>
         <legend>Ingresa la pregunta y posibles respuestas:</legend>
@@ -50,8 +50,7 @@
         
       </fieldset>
       <div class="text-end">
-          <input type="submit" value="Guardar" class="btn btn-dark text-end">
-          <!-- onclick="location.reload()" -->
+          <input type="submit" value="Guardar" class="btn btn-dark text-end" onclick="location.reload()">
         </div>
     </form>
     <br>
@@ -83,6 +82,6 @@
   </template>
 
 
-  <script src="backend/script.js"></script>
+  <script src="backend/read.js"></script>
 </body>
 </html>
